@@ -1,3 +1,11 @@
+def interpolate(a, b, amount):
+  if a == b:
+    return a
+  elif a < b:
+    return a + (b - a) * amount
+  else:
+    return a - (a - b) * amount
+
 # Returns an interpolated color, i.e. between a and b
 # @param a The color when amount = 0.0 (dict 3*int)
 # @param b The color when amount = 1.0 (dict 3*int)
