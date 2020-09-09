@@ -10,7 +10,6 @@ De front-end is je eigen PC. De script werkt alleen met Windows ivm WMI.
 4.  Voer het volgende uit  `python Frontend/Temperatuur.py`
 # Backend
 De back-end is de Raspberry PI.
-control.py moet in /var/www/html met chmod +x
 ## Benodigdheden:
 - Raspberry PI
 - SenseHAT
