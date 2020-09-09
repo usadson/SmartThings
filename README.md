@@ -1,6 +1,10 @@
 # Smart Things
-Tristans deel van het Smart Things project.
-ICT1m2
+Groep: ICT1m2
 
-## Sources
-Heb hiervan de temperaturen gehaald: [Website](https://www.pcworld.com/article/3253340/how-to-check-your-cpu-temperature.html)
+# Frontend
+De front-end is je eigen PC. De script werkt alleen met Windows ivm WMI.
+
+# Backend
+De back-end is de Raspberry PI.
+control.py moet in /var/www/html met chmod +x
+
